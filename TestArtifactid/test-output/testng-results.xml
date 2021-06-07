@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-06T22:50:06 IST" name="Suite" finished-at="2021-06-06T22:50:36 IST" duration-ms="29671">
+    <groups>
+    </groups>
+    <test started-at="2021-06-06T22:50:06 IST" name="Test" finished-at="2021-06-06T22:50:36 IST" duration-ms="29671">
+      <class name="TestPackage.Mytest2">
+        <test-method is-config="true" signature="BeforeClassMethod()[pri:0, instance:TestPackage.Mytest2@1e04fa0a]" started-at="2021-06-06T22:50:25 IST" name="BeforeClassMethod" finished-at="2021-06-06T22:50:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClassMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestPackage.Mytest2@1e04fa0a]" started-at="2021-06-06T22:50:25 IST" name="BeforeMethod" finished-at="2021-06-06T22:50:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Test2()[pri:0, instance:TestPackage.Mytest2@1e04fa0a]" started-at="2021-06-06T22:50:25 IST" name="Test2" finished-at="2021-06-06T22:50:35 IST" duration-ms="10268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="AfterMethodTest()[pri:0, instance:TestPackage.Mytest2@1e04fa0a]" started-at="2021-06-06T22:50:35 IST" name="AfterMethodTest" finished-at="2021-06-06T22:50:36 IST" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodTest -->
+        <test-method is-config="true" signature="AfterClassMethod()[pri:0, instance:TestPackage.Mytest2@1e04fa0a]" started-at="2021-06-06T22:50:36 IST" name="AfterClassMethod" finished-at="2021-06-06T22:50:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClassMethod -->
+      </class> <!-- TestPackage.Mytest2 -->
+      <class name="TestPackage.MyTest">
+        <test-method is-config="true" signature="BSuiteMethod()[pri:0, instance:TestPackage.MyTest@2f217633]" started-at="2021-06-06T22:50:06 IST" name="BSuiteMethod" finished-at="2021-06-06T22:50:06 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BSuiteMethod -->
+        <test-method is-config="true" signature="BeforeTestMethod()[pri:0, instance:TestPackage.MyTest@2f217633]" started-at="2021-06-06T22:50:06 IST" name="BeforeTestMethod" finished-at="2021-06-06T22:50:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTestMethod -->
+        <test-method is-config="true" signature="BeforeClassMethod()[pri:0, instance:TestPackage.MyTest@2f217633]" started-at="2021-06-06T22:50:06 IST" name="BeforeClassMethod" finished-at="2021-06-06T22:50:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClassMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestPackage.MyTest@2f217633]" started-at="2021-06-06T22:50:06 IST" name="BeforeMethod" finished-at="2021-06-06T22:50:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Test1()[pri:0, instance:TestPackage.MyTest@2f217633]" started-at="2021-06-06T22:50:06 IST" name="Test1" finished-at="2021-06-06T22:50:23 IST" duration-ms="17001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="AfterMethodTest()[pri:0, instance:TestPackage.MyTest@2f217633]" started-at="2021-06-06T22:50:23 IST" name="AfterMethodTest" finished-at="2021-06-06T22:50:25 IST" duration-ms="1275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodTest -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:TestPackage.MyTest@2f217633]" started-at="2021-06-06T22:50:25 IST" name="BeforeMethod" finished-at="2021-06-06T22:50:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="secondTest()[pri:0, instance:TestPackage.MyTest@2f217633]" started-at="2021-06-06T22:50:25 IST" name="secondTest" finished-at="2021-06-06T22:50:25 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method is-config="true" signature="AfterMethodTest()[pri:0, instance:TestPackage.MyTest@2f217633]" started-at="2021-06-06T22:50:25 IST" name="AfterMethodTest" finished-at="2021-06-06T22:50:25 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodTest -->
+        <test-method is-config="true" signature="AfterClassMethod()[pri:0, instance:TestPackage.MyTest@2f217633]" started-at="2021-06-06T22:50:25 IST" name="AfterClassMethod" finished-at="2021-06-06T22:50:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClassMethod -->
+        <test-method is-config="true" signature="AfterTestMethod()[pri:0, instance:TestPackage.MyTest@2f217633]" started-at="2021-06-06T22:50:36 IST" name="AfterTestMethod" finished-at="2021-06-06T22:50:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTestMethod -->
+        <test-method is-config="true" signature="ASuiteMethod()[pri:0, instance:TestPackage.MyTest@2f217633]" started-at="2021-06-06T22:50:36 IST" name="ASuiteMethod" finished-at="2021-06-06T22:50:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ASuiteMethod -->
+      </class> <!-- TestPackage.MyTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
