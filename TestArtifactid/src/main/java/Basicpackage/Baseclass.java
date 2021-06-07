@@ -3,6 +3,7 @@ package Basicpackage;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -17,12 +18,20 @@ public class Baseclass {
 	
 	public static WebDriver driver;
 	
-	public static void setup() {
-	WebDriverManager.chromedriver().setup();
-	 driver = new ChromeDriver();
-	
-	driver.get("http://www.google.com");
-	driver.manage().window().maximize();
+	public static void setup(String Browser) {
+		
+
+		if(Browser.equalsIgnoreCase("Edge")){
+			WebDriverManager.edgedriver().setup();
+		    driver = new EdgeDriver();	
+		}else
+		if(Browser.equalsIgnoreCase("Chrome")) {
+		   WebDriverManager.chromedriver().setup();
+		  driver = new ChromeDriver();
+
+			}
+	    driver.get("http://www.google.com");
+	    driver.manage().window().maximize();
 	
 	System.out.println("Browser is launched successfully");
 
